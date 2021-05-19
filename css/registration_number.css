@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background-color: blue;
+    color: cornsilk;
+}
+
+.container {
+    margin-top: 49px;
+    font-size: 24px;
+    font-family: monospace;
+}
+
+.town {
+    margin-top: 37px;
+}
+
+input.regNum {
+    height: 30px;
+}
+
+
+button.button-primary{
+    width: 10%;
+    height: 34px;
+}
+
+button.button-primary.show {
+    margin-top: 30px;
+}
+
+
+
