@@ -5,20 +5,14 @@ function addRegistrations(){
 
     function enterRegistrationsNo(regNo){
          
-        var numberPlate = regNo.trim()
+        var numberPlate = regNo.trim();
         if (numberPlate.match(letters)){
-        return numberPlate;
-
-    }
-
-    else {
-
-        return("invalid registration");
-    }     
+            return numberPlate;
+        }else {
+            return("invalid registration");
+        }     
   
     }
-
-      
 
     return{
         enterRegistrationsNo
